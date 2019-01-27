@@ -1,3 +1,5 @@
+//THIS APP IS A TRIAL PROTOTYPE
+
 const taskList = document.getElementById('tpending');
 
 function events(){
