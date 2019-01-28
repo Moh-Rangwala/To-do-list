@@ -6,15 +6,15 @@
     <title>ToDoApp</title>
     <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="resources/css/style.css" type="text/css">
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+
 </head>
 
 <header>MY TO-DO LIST</header>
 <body>
     <div class="container">
+            <div class="alert text-capitalize feedback">
+                    write value for item
+                   </div>
         <p>
             <label for="newt">Add Item</label>
             <br>
@@ -22,14 +22,21 @@
             <button id="addbut">Add</button>
         </p>
         <label for="tlist">Task List</label>
-        <p id="mainlist">
+
+        <div class="mainlist">
+            
         <ul class="tpending" id="tpending" >
+            <p id="chk"></p>
             <ul class="stpending" id="stpending"></ul>
         </ul>
-        </p>
+
+        <ul class="done", id = "done"></ul>
+        </div>
+
     </div>
 
     <script type="text/javascript" src="resources/js/main.js"></script>
+    
     
     
 </body>
