@@ -3,8 +3,8 @@
 
 The functional operations of this to-do list are:
 1. Add Task
-  * Add the entered task to the task list.
+  1. Add the entered task to the task list.
 1. Display Task list.
-  * Display the added tasks
+  1. Display the added tasks
 1. Delete the task item.
-  * Delete the task item on clicking delete.
+  1. Delete the task item on clicking delete.
